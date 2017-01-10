@@ -12,3 +12,4 @@ A Python Course Catered for 小猪猪...
 ## Topics Being Covered:
 ### Chapter 1: Python Data Structures
 * Section 1.1 Python as a Calculator
+* Section 1.2 Python Data Transformation
