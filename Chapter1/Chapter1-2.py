@@ -1,4 +1,7 @@
-#Chapter 1.2 Data Type and Data Transformation
+#*************************************************************************************************************
+#Chapter 1.2 Python Data Type Transformation
+#*************************************************************************************************************
+
 # using int(), str(), float() can change the data to the type desired.
 pig3 = "2.85"
 
