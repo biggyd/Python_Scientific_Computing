@@ -14,3 +14,6 @@ A Python Course Catered for 小猪猪...
 * Section 1.1 Python as a Calculator
 * Section 1.2 Python Data Transformation
 * Section 1.3 Introduction to Functions in Python
+### Chapter 2: Python Basic Statistics
+* Section 2.1 Intro to 2-dimensional data
+* Section 2.2 Descriptive Statistics using MatPlotlib
