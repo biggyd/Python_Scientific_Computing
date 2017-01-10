@@ -58,3 +58,53 @@ eg1 = [1 + 2, "a" * 5, 3]
 print(eg1)
 eg2 = [["a","bot"],[1,2]]
 print(eg2)
+
+#*************************************************************************************************************
+# Data Slicing
+# Let us create a list for Soc 300 grades, taught by Zhihang. Assumes Zhihang mixed letter grades and numeric
+# grades in this case, but he ranked them...
+#*************************************************************************************************************
+
+Jerry = 102
+Jason = 100
+Mary = "A"
+Molly = "A-"
+Martin = "B+"
+Shin = "C-"
+Shook = 65
+Foster = 51
+
+grades = ["Jerry", Jerry, "Jason", Jason, "Mary", Mary, "Molly", Molly, "Martin", Martin,
+          "Shin", Shin,"Shook", Shook, "Foster", Foster]
+print (grades)
+
+#*************************************************************************************************************
+# Now let's slice the students getting grade higher than B as "goodstudent", and lower as "badstudent"
+#*************************************************************************************************************
+goodstudent=grades[0:10]
+badstudent=grades[10:16]
+print(goodstudent)
+print(badstudent)
+#*************************************************************************************************************
+# Here, python only counts the 1th (grades[0]) to the 10th variable (grades[9]) in grades[0:10]
+# so grades [0:10] actually does not count grades[10] (which is the 11th variable). This needs extra caution.
+#*************************************************************************************************************
+#You can also replace the value, for example, let's say the grade for Foster is actually 81
+grades[-1]= 81
+print(grades)
+# can also extend a list by appending a list to the list
+
+grades_new = grades + ["Piggy", "A++"]
+print(grades_new)
+# and you want to kick out the student who fails (got lower than C-), so
+del(grades_new[-6:-4])
+#*************************************************************************************************************
+# Exercise 1.4:Here, an alternative way to work on slicing is to use list[:X] as to slice the list from the
+#  1st variable to the Xth variable. Using the grades data to slice the student getting passing grades or
+#  better as a list 'okstudent' (passing means C- or better)... create another list called 'notokstudent' by
+#  using only one number and one list statement for those who got worse than C-. Guess how to do it?
+#*************************************************************************************************************
+#You can also slice the slice from the list, go back to our simple eg2 list, what does the following code produced?
+print(eg2[1][1])
+
+
