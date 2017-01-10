@@ -93,9 +93,13 @@ print(badstudent)
 grades[-1]= 81
 print(grades)
 # can also extend a list by appending a list to the list
-
 grades_new = grades + ["Piggy", "A++"]
 print(grades_new)
+# If you want to create a duplicate list without changing the value from the original list, then using list() is essential.
+grades_alt = list(grades)
+grades_alt[1] = 103
+print(grades_alt) #try if not using list, the 'grades' list will also subject to change even your change is directed to 
+#grades_alt
 # and you want to kick out the student who fails (got lower than C-), so
 del(grades_new[-6:-4])
 #*************************************************************************************************************
