@@ -1,6 +1,8 @@
-#Chapter 1.1 Python as a calculator
-#Python can do common calculating problems, just like R.
+#*************************************************************************************************************
+#Chapter 1.1 Python as a Calculator
+#*************************************************************************************************************
 
+#Python can do common calculating problems, just like R.
 #For example,
 
 print (5 / 8)
@@ -15,6 +17,10 @@ print(18 % 7)
 
 # Exercise 1.1 Little Piggy invests 1000 dollars in BOA with an annual interests rate of 2%, what will little piggy get by pulling
 # all monies from the bank after 8 years?
+
+#*************************************************************************************************************
+#Variable
+#*************************************************************************************************************
 
 # Of course, you may want to create a variable to store some values
 pig1 = 100
