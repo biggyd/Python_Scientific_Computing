@@ -13,3 +13,4 @@ A Python Course Catered for 小猪猪...
 ### Chapter 1: Python Data Structures
 * Section 1.1 Python as a Calculator
 * Section 1.2 Python Data Transformation
+* Section 1.3 Introduction to Functions in Python
