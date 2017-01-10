@@ -13,7 +13,7 @@ print(4 ** 2)
 # Modulo
 print(18 % 7)
 
-# Exercise 1.1 Little Pig invests 1000 dollars in BOA with an annual rate of 2%, what will little pig gets by pulling
+# Exercise 1.1 Little Piggy invests 1000 dollars in BOA with an annual interests rate of 2%, what will little piggy get by pulling
 # all monies from the bank after 8 years?
 
 # Of course, you may want to create a variable to store some values
