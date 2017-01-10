@@ -41,3 +41,7 @@ print(notokstudent)
 pig= "PiGgy"
 smallpig = pig.lower()
 print(smallpig)
+
+#because python discriminates upper and lower case letter, use the following code will do the work
+bigpig= pig.upper()
+print(bigpig.count("G"))
