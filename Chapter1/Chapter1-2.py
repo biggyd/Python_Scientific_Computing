@@ -8,3 +8,31 @@ pig3 = "2.85"
 # print("the number of pig is" + 3) <- you can try and see what error it creates...
 # alternatively, you can do something such as
 print("the number of pig is " + "3")
+
+#Create a list, using bracket
+
+fruit1 = "apple"
+fruit2 = "pear"
+fruit3 = "melon"
+fruit4 = "berries"
+
+salad = [fruit1,fruit2,fruit3,fruit4]
+print(salad) # also works for int and float, try that on your self
+#Combine data type??
+# Example: area variables (in square meters)
+hall = 6.25
+kit = 11.0
+liv = 40.0
+bed = 17.75
+bath = 11.50
+
+# Adapt list areas
+areas = [str("hallway"),hall, "kitchen", kit, str("living room"), liv, "bedroom",bed, str("bathroom"),bath]
+
+# Print areas
+print (areas)
+#Others also work, pay attention how 'a' worked in Example list 1(eg1)...
+eg1 = [1 + 2, "a" * 5, 3]
+print(eg1)
+eg2 = [["a","bot"],[1,2]]
+print(eg2)
