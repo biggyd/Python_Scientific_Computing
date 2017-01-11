@@ -5,3 +5,7 @@ a few plots using data from the UCI Machine Learning Respository. The submission
 * Your raw codes (.py form). Note: All codes must be properly commented!
 * A written report with at least 4 figures. Each figure should be accompanied with a paragraph of explanation (<100 words).
 * A README.txt file (optional)
+
+ The purpose of this project is just to integrate what you have learned so far, and write some Python codes yourself independently. 
+ 
+ Good Luck!
