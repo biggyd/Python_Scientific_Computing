@@ -1,5 +1,5 @@
 # *************************************************************************************************************
-# Chapter 2.2
+# Chapter 2.2 Descriptive Plots using MatPlotlib
 # *************************************************************************************************************
 # *************************************************************************************************************
 # Source: https://archive.ics.uci.edu/ml/datasets/Housing
@@ -81,4 +81,27 @@ tick_lab = ['A','B','C','D','E', 'F'] #customizing a safety 'grade' for your com
 plt.xticks(tick_val, tick_lab)
 plt.show()
 plt.clf()
+
+# *************************************************************************************************************
+# Bubble plots
+# adding a third variable to change the size of scatter...
+# *************************************************************************************************************
+# Import numpy as np
+import numpy as np
+
+# Store pop as a numpy array: np_pop
+np_indus = np.array(housing.INDUS)
+np_indus = np_indus * 3 # see what happens if you don't do this multiplication
+plt.scatter(housing.CRIM, housing.MEDV, s=np_indus) #s = size
+plt.xscale('log')
+tick_val = [0.1,0.3,1,2,5,30]
+tick_lab = ['A','B','C','D','E', 'F'] #customizing a safety 'grade' for your community
+plt.xticks(tick_val, tick_lab)
+plt.title("Boston Housing Value and Neighborhood Crime")
+plt.xlabel("Crime Grade")
+plt.ylabel("Median Housing Value of a Neighborhood")
+plt.grid(True) # what does this did?
+plt.show()
+plt.clf()
+
 
