@@ -45,3 +45,18 @@ gradebook = { 'Jack': { 'gender':'M', 'grade':80 },
            'Alice': { 'gender':'F', 'grade':100},
            'John': { 'gender':'M', 'grade':60} }
 print(gradebook['John']['grade'])
+
+# *************************************************************************************************************
+# Dictionary mapped to Dataframe
+# Let's continue using the dictionary example, and check out how DataFrame work...
+# *************************************************************************************************************
+
+name = ['John','Sonata','Mark','Alice','David','Morgan']
+gender = ['M','F','M','F','M','M']
+grade = [84, 72, 90, 100, 88, 100]
+
+import pandas as pd
+gradesheet = {'StudentName':name, 'Gender':gender, 'Grade Overall': grade}
+
+finalgrade=pd.DataFrame(gradesheet)
+print(finalgrade)
