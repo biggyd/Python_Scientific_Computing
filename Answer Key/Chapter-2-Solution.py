@@ -23,3 +23,14 @@ print (np_score[5,1])
 #2.3
 med = np.median(np_score[:, 1])
 print("The Median of GPA is " + str(med))
+
+#2.4
+# plt.plot() plots each variable to its corresponding value in another variable, so it
+# is a better command when you want to look at the trajectory of a variable across time.
+
+#2.5
+# 0
+
+#2.6
+del(food['India'])
+
