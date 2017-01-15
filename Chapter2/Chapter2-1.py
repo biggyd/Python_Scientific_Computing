@@ -1,5 +1,5 @@
 #*************************************************************************************************************
-#Chapter 2.1 Two Dimension Data set
+#Chapter 2.1 Two Dimensional Data set
 #*************************************************************************************************************
 #The numpy package transfer lists into arrays
 import numpy as np
