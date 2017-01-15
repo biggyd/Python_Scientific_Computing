@@ -15,3 +15,5 @@ print(df)
 pd.set_option('display.unicode.east_asian_width', True)
 print(df)
 
+#can be used in Korean and Chinese, too XD
+
