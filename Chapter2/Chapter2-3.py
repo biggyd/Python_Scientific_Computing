@@ -103,7 +103,8 @@ print(df.loc[500])
 print(df.iloc[2])
 
 # ix finder
-
+# The use of ix is illustrated here: http://stackoverflow.com/questions/31593201/pandas-iloc-vs-ix-vs-loc-explanation
+# How to use ix specifically has been left as a homework problem.
 
 # query finder
 print(df.query('B<80'))
