@@ -1,4 +1,4 @@
-# Python for Little Piggy Data Science Course
+# Python Scientific Computing Course
 ## Programming Assignment 1
 The first assignment of this Python course is to use the packages and commands learned in Chapter 1 - Chapter 2 to produce
 a few plots using data from the UCI Machine Learning Respository. The submission should include the following components:
