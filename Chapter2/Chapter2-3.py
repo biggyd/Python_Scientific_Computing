@@ -110,7 +110,7 @@ print(df.iloc[2])
 print(df.query('B<80'))
 
 # *************************************************************************************************************
-# Exercise 2.7 In your words, explain briefly how loc, iloc and query works. This answer must be posted to
+# Exercise 2.7 In your words, explain briefly the differences of ix, iloc and loc. This answer must be posted to
 # 'Using Chapter 2' Issue tab if you are enrolled in this course.
 # *************************************************************************************************************
 
