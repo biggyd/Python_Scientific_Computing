@@ -15,6 +15,11 @@
 * Section 1.3 Introduction to Functions in Python
 
 
-### Chapter 2: Python Basic Statistics
+### Chapter 2: Python Data Frames
 * Section 2.1 Intro to 2-dimensional data
 * Section 2.2 Descriptive Statistics using MatPlotlib
+* Section 2.3 Python Data Frame Manipulation via Panda
+
+### Chapter 3: Python Data Logics
+* Section 3.1 Python Control Flows
+* Section 3.2 Loops
