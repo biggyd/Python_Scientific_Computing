@@ -1,4 +1,4 @@
-# Piggy Python Course for Statistical Sciences
+# Python Course for Statistical Sciences
 > This course is an introductory Python data science course. Instead of focusing on object-oriented programming techniques, the course project will focus primarily on how to use Python solving some common statistical problems. If any topic not covered emerged as necessary, please let the author know.
 ## Software/Mathematics Requirement:
 * Mac OS 10.4 + / Windows 7 or higher
